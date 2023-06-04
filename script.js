@@ -7,7 +7,7 @@ function init(){
     btn.id = 'change';
     document.querySelector('#redo').innerHTML = '';
     document.querySelector('#redo').appendChild(btn);
-    const count = 128;
+    const count = 32;
     binary = getRandomBinary(count);
 
     renderLights(count);
