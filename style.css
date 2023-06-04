@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app{
+    width: 100vw;
+    height: 80vh;
+    background: azure;
+    display: grid;
+}
+#redo{
+    width: 100vw;
+    height: 20vh;
+    background: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lamp-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lamp{
+    border-radius: 50%;
+    height: 50%;
+    aspect-ratio: 1;
+}
