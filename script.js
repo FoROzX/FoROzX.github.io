@@ -12,6 +12,10 @@ function init(){
 
     renderLights(count);
 
+    document.querySelectorAll('.lamp').forEach((lamp, index) => {
+        lamp.onclick = e => {};   
+    });
+    
     btn.onclick = e => {
         changeOne(count);
     };
